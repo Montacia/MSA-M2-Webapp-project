@@ -4,6 +4,7 @@
         <title>Testing</title>
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
     </head>
     <body>
         <div class="container-fluid">
@@ -15,11 +16,9 @@
                 <div class="col-sm-12">
                     <form>
                         Where do you want to be?<br>
-                        <input type="text" name="address">
-                        <button type="button" onclick="alert('Hello world')">Let's go!</button>
+                        <input type="text" name="address" id="address">
+                        <button type="button" onclick="bgChange()">Let's go!</button>
                     </form>
-                </div>
-                <div class="col-sm-12">
                 </div>
             </div>
         </div>

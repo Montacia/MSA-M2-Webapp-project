@@ -1,15 +1,18 @@
 body {
   text-align: center;
+  background: url('https://maps.googleapis.com/maps/api/streetview?size=2000x2000&location=40.720032,-73.988354&fov=90&heading=235&pitch=10&key=AIzaSyA2gsiXBZZs90Ha2DoPsCCMzmzvf8z8ZMM') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 div.container-fluid {
   color: #FFF;
-  background-color: #000;
   }
 
 p {
   color: #0F0;
-  background-color: #222;
   }
 
 form {
