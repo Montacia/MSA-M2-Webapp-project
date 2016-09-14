@@ -12,7 +12,7 @@ body {
 
 div.container-fluid {
   color: #EEE;
-  font: "Tahoma";
+  font: "Tahoma", Geneva, sans-serif;
   font-weight: "bold";
   }
 
