@@ -1,3 +1,6 @@
+html{
+  min-height:100%;
+}
 body {
   text-align: center;
   background: url('https://maps.googleapis.com/maps/api/streetview?size=640x640&location=40.720032,-73.988354&fov=120&key=AIzaSyA2gsiXBZZs90Ha2DoPsCCMzmzvf8z8ZMM') no-repeat center center fixed; 
