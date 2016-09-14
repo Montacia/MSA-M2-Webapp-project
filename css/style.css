@@ -8,13 +8,72 @@ body {
 }
 
 div.container-fluid {
+  color: #EEE;
+  font: "Tahoma";
+  font-weight: "bold";
+  }
+
+#title{
+    padding: 4% 30%;    
+}
+
+h1{
+  text-shadow: 2px 2px 5px #000;
+  padding: 5%;
+}
+form{
   color: #FFF;
-  }
+  text-shadow: 1px 1px 2px #000;
+}
+input{
+  width: 30%;
+  background-color: rgba(255,255,255,0.5);
+  border-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px #000;
+}
+.btn{
+  color:#FFF;
+}
+button{
+  background-color: rgba(51,102,204,0.8);
+  border-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  color: #FFF;
+}
+input:hover{
+  background-color: rgba(255,255,255,0.7);
+  border-color: rgba(0,0,0,0.7);
+}
+button:hover{
+  background-color: rgba(51,102,204,1);
+  border-color: rgba(0,0,50,0.7);
+}
 
-p {
-  color: #0F0;
-  }
+button:active{
+  background-color: rgba(51,102,204,1);
+  border-color: rgba(0,0,0,0.5);
+}
+input:active {
+  background-color: rgba(255,255,255,0.7);
+  border-color: rgba(0,0,0,0.5); 
+}
 
-form {
-  color: #000;
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #EEE;
+    text-shadow: 1px 1px 2px #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #EEE;
+   text-shadow: 1px 1px 2px #000;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #EEE;
+   text-shadow: 1px 1px 2px #000;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #EEE;
+   text-shadow: 1px 1px 2px #000;
 }

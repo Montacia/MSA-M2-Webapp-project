@@ -9,17 +9,15 @@
         <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap-sweetalert/dist/sweetalert.css">
     </head>
     <body>
-        <div class="container-fluid">
-            <h1>Hello world?</h1>
-            <p> yo </p>
+        <div class="container-fluid" id="title">
+            <h1>Where would you like to go?</h1>
         </div>
         <div class="container-fluid" id="main">
             <div class="row-fluid">
                 <div class="col-sm-12">
                     <form>
-                        Where do you want to be?<br>
-                        <input type="text" name="address" id="address">
-                        <button type="button" onclick="bgChange()">Let's go!</button>
+                        <input type="text" name="address" id="address" placeholder="Type an address!">
+                        <button type="button" onclick="bgChange()">Go!</button>
                     </form>
                 </div>
             </div>
