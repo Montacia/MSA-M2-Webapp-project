@@ -1,5 +1,17 @@
 body {
-  color: #000;
-  background-color: #111; }
+  text-align: center;
+}
 
-/*# sourceMappingURL=style.css.map */
+div.container-fluid {
+  color: #FFF;
+  background-color: #000;
+  }
+
+p {
+  color: #0F0;
+  background-color: #222;
+  }
+
+form {
+  color: #000;
+}
