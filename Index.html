@@ -7,17 +7,22 @@
         <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
         <script src="./node_modules/bootstrap-sweetalert/dist/sweetalert.min.js"></script> 
         <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap-sweetalert/dist/sweetalert.css">
+        <script src="jquery.fittext.js"></script>
     </head>
     <body>
         <div class="container-fluid" id="title">
-            <h1>Where would you like to go?</h1>
+            <div class="row-fluid">
+                <div class = "col-sm-12">
+                    <h1>Where would you like to go?</h1>
+                </div>
+            </div>
         </div>
         <div class="container-fluid" id="main">
             <div class="row-fluid">
                 <div class="col-sm-12">
                     <form>
                         <input type="text" name="address" id="address" placeholder="Type an address!">
-                        <button type="button" onclick="bgChange()">Go!</button>
+                        <button type="button" onclick="bgChange()" id="btn">Go!</button>
                     </form>
                 </div>
             </div>

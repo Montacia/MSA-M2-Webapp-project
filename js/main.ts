@@ -9,6 +9,7 @@ function bgChange() {
 }
 
 $(function(){
+    $("h1").fitText(1.3,{ minFontSize: '1px', maxFontSize: '34%' });
     $('form').submit(function(jqEvt){
         jqEvt.preventDefault();
         bgChange();
