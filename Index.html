@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script>var appInsights = require("applicationinsights");
-    appInsights.setup("6ce9b5d3-cdff-4b95-b786-1b59de0a1490").start();</script>
         <title>Location Previewer</title>
         <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">    
+        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap-sweetalert/dist/sweetalert.css">
+        <script>var appInsights = require("applicationinsights");
+                appInsights.setup("6ce9b5d3-cdff-4b95-b786-1b59de0a1490").start();</script>
+        <script type="text/javascript">
+            var appInsights=window.appInsights||function(config){
+                function i(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s="AuthenticatedUserContext",h="start",c="stop",l="Track",a=l+"Event",v=l+"Page",y=u.createElement(o),r,f;y.src=config.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(y);try{t.cookie=u.cookie}catch(p){}for(t.queue=[],t.version="1.0",r=["Event","Exception","Metric","PageView","Trace","Dependency"];r.length;)i("track"+r.pop());return i("set"+s),i("clear"+s),i(h+a),i(c+a),i(h+v),i(c+v),i("flush"),config.disableExceptionTracking||(r="onerror",i("_"+r),f=e[r],e[r]=function(config,i,u,e,o){var s=f&&f(config,i,u,e,o);return s!==!0&&t["_"+r](config,i,u,e,o),s}),t
+            }({
+                instrumentationKey:"6ce9b5d3-cdff-4b95-b786-1b59de0a1490"
+            });
+        
+            window.appInsights=appInsights;
+            appInsights.trackPageView();
+        </script>
         <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
         <script src="./node_modules/bootstrap-sweetalert/dist/sweetalert.min.js"></script> 
-        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap-sweetalert/dist/sweetalert.css">
         <script src="jquery.fittext.js"></script>
     </head>
     <body>
