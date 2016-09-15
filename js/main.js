@@ -9,7 +9,7 @@ function bgChange() {
 }
 $(function () {
     var appInsights = require("applicationinsights");
-    appInsights.setup("266fce99-7a60-40ac-91a9-b864281b87d1").start();
+    appInsights.setup("b1aefe0d-bbc2-4d0f-bc9a-222561a53548").start();
     $("h1").fitText(1.3, { minFontSize: '1px', maxFontSize: '34%' });
     $('form').submit(function (jqEvt) {
         jqEvt.preventDefault();
