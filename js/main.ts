@@ -15,8 +15,3 @@ $(function(){
         bgChange();
     })
 })
-
-$(function(){
-    var appInsights = require("applicationinsights");
-    appInsights.setup("6ce9b5d3-cdff-4b95-b786-1b59de0a1490").start();
-})
